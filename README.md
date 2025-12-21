@@ -2,7 +2,7 @@
 
 [screen-recorder-thu-jul-03-2025-01-04-23.webm](https://github.com/user-attachments/assets/4a5427df-8d6a-43e9-ab13-e51ef1390dc9)
 
-O back-end tem como api  um assistente conversacional, utilizando a API do Google Gemini. O objetivo do assistente é entender as solicitações do usuário em linguagem natural e guiá-lo para a seção correta de um aplicativo de plano odontológico, servindo como uma interface de navegação por voz ou texto.
+O back-end expõe uma API de um assistente conversacional usando a API do Google Gemini. O objetivo é interpretar solicitações do usuário em linguagem natural e direcioná-lo para a seção correta de um app, funcionando como interface de navegação por texto ou voz.
 
 O repositório inclui o servidor backend em Node.js e um arquivo de demonstração frontend (`index.html`) para testar a interação completa.
 
@@ -27,7 +27,7 @@ O repositório inclui o servidor backend em Node.js e um arquivo de demonstraç�
     * [Ionic Framework](https://ionicframework.com/) (componentes via CDN para a UI)
 
 
-## ⚙️ Instalação e Execução
+##  Instalação e Execução
 
 Siga os passos abaixo para executar o projeto localmente.
 
@@ -66,7 +66,7 @@ Siga os passos abaixo para executar o projeto localmente.
     Endpoint de chat disponível em: POST http://localhost:3000/api/chat
     ```
 
-## 🕹️ Como Usar
+## Como Usar
 
 Com o servidor rodando, você pode interagir com o assistente de duas formas:
 
