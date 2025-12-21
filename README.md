@@ -6,7 +6,7 @@ Este projeto demonstra a criação de um backend para um agente conversacional i
 
 O repositório inclui o servidor backend em Node.js e um arquivo de demonstração frontend (`index.html`) para testar a interação completa.
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 * **Compreensão de Linguagem Natural (NLU):** Utiliza o poder do modelo Gemini para interpretar uma vasta gama de solicitações do usuário, desde comandos diretos ("Quero ver meu histórico de pagamentos") até perguntas complexas ("Paguei a fatura duas vezes, como confirmo?").
 * **Conversa Contextual:** Mantém um histórico da conversa para entender perguntas de acompanhamento e fornecer respostas mais coesas.
@@ -15,7 +15,7 @@ O repositório inclui o servidor backend em Node.js e um arquivo de demonstraç�
 * **Lógica de Fallback Inteligente:** Quando a intenção não é clara, o agente é instruído a fazer perguntas para obter mais detalhes, em vez de simplesmente dizer "não entendi".
 * **Frontend de Demonstração:** Um arquivo `index.html` autocontido que simula a interface de um aplicativo mobile, permitindo testar o fluxo de ponta a ponta.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Backend:**
     * [Node.js](https://nodejs.org/)
