@@ -1,8 +1,8 @@
-# Agente Conversacional com Gemini para Navegação em App
+# Assistente Conversacional com Gemini para Navegação em App
 
 [screen-recorder-thu-jul-03-2025-01-04-23.webm](https://github.com/user-attachments/assets/4a5427df-8d6a-43e9-ab13-e51ef1390dc9)
 
-Este projeto demonstra a criação de um backend para um agente conversacional inteligente, utilizando a API do Google Gemini. O objetivo do agente é entender as solicitações do usuário em linguagem natural e guiá-lo para a seção correta de um aplicativo de plano odontológico, servindo como uma interface de navegação por voz ou texto.
+O back-end tem como api  um assistente conversacional, utilizando a API do Google Gemini. O objetivo do assistente é entender as solicitações do usuário em linguagem natural e guiá-lo para a seção correta de um aplicativo de plano odontológico, servindo como uma interface de navegação por voz ou texto.
 
 O repositório inclui o servidor backend em Node.js e um arquivo de demonstração frontend (`index.html`) para testar a interação completa.
 
@@ -11,8 +11,8 @@ O repositório inclui o servidor backend em Node.js e um arquivo de demonstraç�
 * **Compreensão de Linguagem Natural (NLU):** Utiliza o poder do modelo Gemini para interpretar uma vasta gama de solicitações do usuário, desde comandos diretos ("Quero ver meu histórico de pagamentos") até perguntas complexas ("Paguei a fatura duas vezes, como confirmo?").
 * **Conversa Contextual:** Mantém um histórico da conversa para entender perguntas de acompanhamento e fornecer respostas mais coesas.
 * **Uso de Ferramentas (Function Calling):** O Gemini foi treinado para usar uma "ferramenta" interna (`MapsToSection`) que lhe permite decidir quando o usuário deve ser redirecionado e para qual seção específica do app.
-* **Respostas Dinâmicas:** O agente pode responder com texto (para fazer perguntas de esclarecimento) ou com uma instrução de redirecionamento para o frontend.
-* **Lógica de Fallback Inteligente:** Quando a intenção não é clara, o agente é instruído a fazer perguntas para obter mais detalhes, em vez de simplesmente dizer "não entendi".
+* **Respostas Dinâmicas:** O assistente pode responder com texto (para fazer perguntas de esclarecimento) ou com uma instrução de redirecionamento para o frontend.
+* **Lógica de Fallback Inteligente:** Quando a intenção não é clara, o assistente é instruído a fazer perguntas para obter mais detalhes, em vez de simplesmente dizer "não entendi".
 * **Frontend de Demonstração:** Um arquivo `index.html` autocontido que simula a interface de um aplicativo mobile, permitindo testar o fluxo de ponta a ponta.
 
 ## Tecnologias Utilizadas
@@ -68,7 +68,7 @@ Siga os passos abaixo para executar o projeto localmente.
 
 ## 🕹️ Como Usar
 
-Com o servidor rodando, você pode interagir com o agente de duas formas:
+Com o servidor rodando, você pode interagir com o assistente de duas formas:
 
 ### 1. Usando a Demo Frontend
 
